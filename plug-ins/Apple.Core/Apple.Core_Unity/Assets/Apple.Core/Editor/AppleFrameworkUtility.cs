@@ -151,7 +151,8 @@ namespace Apple.Core
             {
                 var expectedInstallPath = source.Substring(source.LastIndexOf(searchString) + searchString.Length);
                 Debug.Log($"CopyAndEmbed - Expected install path for {frameworkName}: {expectedInstallPath}");
-                fileGuid = pbxProject.FindFileGuidByProjectPath(Path.Combine("Frameworks", expectedInstallPath));
+                // fileGuid = pbxProject.FindFileGuidByProjectPath(Path.Combine("Frameworks", expectedInstallPath));
+                fileGuid = pbxProject.FindFileGuidByProjectPath(Path.Combine(frameworkName.EndsWith(".a") ? "Libraries" : "Frameworks", expectedInstallPath));
                 if (string.IsNullOrEmpty(fileGuid))
                 {
                     fileGuid = pbxProject.FindFileGuidByProjectPath(Path.Combine("Libraries", expectedInstallPath));
