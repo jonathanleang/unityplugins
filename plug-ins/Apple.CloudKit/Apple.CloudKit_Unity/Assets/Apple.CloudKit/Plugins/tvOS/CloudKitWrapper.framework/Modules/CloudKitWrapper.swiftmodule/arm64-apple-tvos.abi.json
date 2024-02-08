@@ -1,0 +1,3706 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CloudKitWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CloudKitWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CloudKit",
+        "printedName": "CloudKit",
+        "declKind": "Import",
+        "moduleName": "CloudKitWrapper"
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "CloudKitWrapper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSUbiquitousKeyValueStoreChangeReason",
+        "printedName": "NSUbiquitousKeyValueStoreChangeReason",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "serverChange",
+            "printedName": "serverChange",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason.Type) -> CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSUbiquitousKeyValueStoreChangeReason",
+                    "printedName": "CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason",
+                    "usr": "s:15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSUbiquitousKeyValueStoreChangeReason",
+                        "printedName": "CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason",
+                        "usr": "s:15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO06serverH0yA2CmF",
+            "mangledName": "$s15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO06serverH0yA2CmF",
+            "moduleName": "CloudKitWrapper"
+          },
+          {
+            "kind": "Var",
+            "name": "initialSyncChange",
+            "printedName": "initialSyncChange",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason.Type) -> CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSUbiquitousKeyValueStoreChangeReason",
+                    "printedName": "CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason",
+                    "usr": "s:15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSUbiquitousKeyValueStoreChangeReason",
+                        "printedName": "CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason",
+                        "usr": "s:15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO011initialSyncH0yA2CmF",
+            "mangledName": "$s15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO011initialSyncH0yA2CmF",
+            "moduleName": "CloudKitWrapper"
+          },
+          {
+            "kind": "Var",
+            "name": "quotaViolationChange",
+            "printedName": "quotaViolationChange",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason.Type) -> CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSUbiquitousKeyValueStoreChangeReason",
+                    "printedName": "CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason",
+                    "usr": "s:15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSUbiquitousKeyValueStoreChangeReason",
+                        "printedName": "CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason",
+                        "usr": "s:15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO014quotaViolationH0yA2CmF",
+            "mangledName": "$s15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO014quotaViolationH0yA2CmF",
+            "moduleName": "CloudKitWrapper"
+          },
+          {
+            "kind": "Var",
+            "name": "accountChange",
+            "printedName": "accountChange",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason.Type) -> CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSUbiquitousKeyValueStoreChangeReason",
+                    "printedName": "CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason",
+                    "usr": "s:15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSUbiquitousKeyValueStoreChangeReason",
+                        "printedName": "CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason",
+                        "usr": "s:15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO07accountH0yA2CmF",
+            "mangledName": "$s15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO07accountH0yA2CmF",
+            "moduleName": "CloudKitWrapper"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSUbiquitousKeyValueStoreChangeReason",
+                    "printedName": "CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason",
+                    "usr": "s:15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO03rawF0ACSgSi_tcfc",
+            "mangledName": "$s15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO03rawF0ACSgSi_tcfc",
+            "moduleName": "CloudKitWrapper",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO03rawF0Sivp",
+            "mangledName": "$s15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO03rawF0Sivp",
+            "moduleName": "CloudKitWrapper",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO03rawF0Sivg",
+                "mangledName": "$s15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO03rawF0Sivg",
+                "moduleName": "CloudKitWrapper",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO",
+        "mangledName": "$s15CloudKitWrapper37NSUbiquitousKeyValueStoreChangeReasonO",
+        "moduleName": "CloudKitWrapper",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSUbiquitousKeyValueStoreDidChangeExternallyObserver",
+        "printedName": "NSUbiquitousKeyValueStoreDidChangeExternallyObserver",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "DidChangeExternally",
+            "printedName": "DidChangeExternally",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Int, CloudKitWrapper.InteropStructArray) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, CloudKitWrapper.InteropStructArray) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Int, CloudKitWrapper.InteropStructArray)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InteropStructArray",
+                            "printedName": "CloudKitWrapper.InteropStructArray",
+                            "usr": "c:@SA@InteropStructArray"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CloudKitWrapper52NSUbiquitousKeyValueStoreDidChangeExternallyObserverC0hiJ0ySi_So18InteropStructArrayatXCSgvp",
+            "mangledName": "$s15CloudKitWrapper52NSUbiquitousKeyValueStoreDidChangeExternallyObserverC0hiJ0ySi_So18InteropStructArrayatXCSgvp",
+            "moduleName": "CloudKitWrapper",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Int, CloudKitWrapper.InteropStructArray) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Int, CloudKitWrapper.InteropStructArray) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.Int, CloudKitWrapper.InteropStructArray)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "InteropStructArray",
+                                "printedName": "CloudKitWrapper.InteropStructArray",
+                                "usr": "c:@SA@InteropStructArray"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CloudKitWrapper52NSUbiquitousKeyValueStoreDidChangeExternallyObserverC0hiJ0ySi_So18InteropStructArrayatXCSgvg",
+                "mangledName": "$s15CloudKitWrapper52NSUbiquitousKeyValueStoreDidChangeExternallyObserverC0hiJ0ySi_So18InteropStructArrayatXCSgvg",
+                "moduleName": "CloudKitWrapper",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Int, CloudKitWrapper.InteropStructArray) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Int, CloudKitWrapper.InteropStructArray) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.Int, CloudKitWrapper.InteropStructArray)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "InteropStructArray",
+                                "printedName": "CloudKitWrapper.InteropStructArray",
+                                "usr": "c:@SA@InteropStructArray"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CloudKitWrapper52NSUbiquitousKeyValueStoreDidChangeExternallyObserverC0hiJ0ySi_So18InteropStructArrayatXCSgvs",
+                "mangledName": "$s15CloudKitWrapper52NSUbiquitousKeyValueStoreDidChangeExternallyObserverC0hiJ0ySi_So18InteropStructArrayatXCSgvs",
+                "moduleName": "CloudKitWrapper",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CloudKitWrapper52NSUbiquitousKeyValueStoreDidChangeExternallyObserverC0hiJ0ySi_So18InteropStructArrayatXCSgvM",
+                "mangledName": "$s15CloudKitWrapper52NSUbiquitousKeyValueStoreDidChangeExternallyObserverC0hiJ0ySi_So18InteropStructArrayatXCSgvM",
+                "moduleName": "CloudKitWrapper",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "ubiquitousKeyValueStoreDidChange",
+            "printedName": "ubiquitousKeyValueStoreDidChange(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Notification",
+                "printedName": "Foundation.Notification",
+                "usr": "s:10Foundation12NotificationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CloudKitWrapper@objc(cs)NSUbiquitousKeyValueStoreDidChangeExternallyObserver(im)ubiquitousKeyValueStoreDidChange:",
+            "mangledName": "$s15CloudKitWrapper52NSUbiquitousKeyValueStoreDidChangeExternallyObserverC010ubiquitousefghI0yy10Foundation12NotificationVF",
+            "moduleName": "CloudKitWrapper",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSUbiquitousKeyValueStoreDidChangeExternallyObserver",
+                "printedName": "CloudKitWrapper.NSUbiquitousKeyValueStoreDidChangeExternallyObserver",
+                "usr": "c:@M@CloudKitWrapper@objc(cs)NSUbiquitousKeyValueStoreDidChangeExternallyObserver"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CloudKitWrapper@objc(cs)NSUbiquitousKeyValueStoreDidChangeExternallyObserver(im)init",
+            "mangledName": "$s15CloudKitWrapper52NSUbiquitousKeyValueStoreDidChangeExternallyObserverCACycfc",
+            "moduleName": "CloudKitWrapper",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CloudKitWrapper@objc(cs)NSUbiquitousKeyValueStoreDidChangeExternallyObserver",
+        "mangledName": "$s15CloudKitWrapper52NSUbiquitousKeyValueStoreDidChangeExternallyObserverC",
+        "moduleName": "CloudKitWrapper",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "NSUbiquitousKeyValueStore_AddObserverForDidChangeExternallyNotification",
+        "printedName": "NSUbiquitousKeyValueStore_AddObserverForDidChangeExternallyNotification(callback:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(Swift.Int, CloudKitWrapper.InteropStructArray) -> ()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.Int, CloudKitWrapper.InteropStructArray)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InteropStructArray",
+                    "printedName": "CloudKitWrapper.InteropStructArray",
+                    "usr": "c:@SA@InteropStructArray"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)NSUbiquitousKeyValueStore_AddObserverForDidChangeExternallyNotificationWithCallback:",
+        "mangledName": "$s15CloudKitWrapper71NSUbiquitousKeyValueStore_AddObserverForDidChangeExternallyNotification8callbackyySi_So18InteropStructArrayatXC_tF",
+        "moduleName": "CloudKitWrapper",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "NSUbiquitousKeyValueStore_RemoveObserverForDidChangeExternallyNotification",
+        "printedName": "NSUbiquitousKeyValueStore_RemoveObserverForDidChangeExternallyNotification()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)NSUbiquitousKeyValueStore_RemoveObserverForDidChangeExternallyNotification",
+        "mangledName": "$s15CloudKitWrapper74NSUbiquitousKeyValueStore_RemoveObserverForDidChangeExternallyNotificationyyF",
+        "moduleName": "CloudKitWrapper",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "NSUbiquitousKeyValueStore_GetArray",
+        "printedName": "NSUbiquitousKeyValueStore_GetArray(forKey:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "InteropStructArray",
+            "printedName": "CloudKitWrapper.InteropStructArray",
+            "usr": "c:@SA@InteropStructArray"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeMutablePointer",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:Sp"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)NSUbiquitousKeyValueStore_GetArrayForKey:",
+        "mangledName": "$s15CloudKitWrapper34NSUbiquitousKeyValueStore_GetArray03forE0So013InteropStructI0aSpys4Int8VG_tF",
+        "moduleName": "CloudKitWrapper",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "NSUbiquitousKeyValueStore_GetBool",
+        "printedName": "NSUbiquitousKeyValueStore_GetBool(forKey:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeMutablePointer",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:Sp"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)NSUbiquitousKeyValueStore_GetBoolForKey:",
+        "mangledName": "$s15CloudKitWrapper33NSUbiquitousKeyValueStore_GetBool03forE0SbSpys4Int8VG_tF",
+        "moduleName": "CloudKitWrapper",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "NSUbiquitousKeyValueStore_GetData",
+        "printedName": "NSUbiquitousKeyValueStore_GetData(forKey:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "InteropStructArray",
+            "printedName": "CloudKitWrapper.InteropStructArray",
+            "usr": "c:@SA@InteropStructArray"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeMutablePointer",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:Sp"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)NSUbiquitousKeyValueStore_GetDataForKey:",
+        "mangledName": "$s15CloudKitWrapper33NSUbiquitousKeyValueStore_GetData03forE0So18InteropStructArrayaSpys4Int8VG_tF",
+        "moduleName": "CloudKitWrapper",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "NSUbiquitousKeyValueStore_GetDouble",
+        "printedName": "NSUbiquitousKeyValueStore_GetDouble(forKey:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Double",
+            "printedName": "Swift.Double",
+            "usr": "s:Sd"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeMutablePointer",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:Sp"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)NSUbiquitousKeyValueStore_GetDoubleForKey:",
+        "mangledName": "$s15CloudKitWrapper35NSUbiquitousKeyValueStore_GetDouble03forE0SdSpys4Int8VG_tF",
+        "moduleName": "CloudKitWrapper",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "NSUbiquitousKeyValueStore_GetInt64",
+        "printedName": "NSUbiquitousKeyValueStore_GetInt64(forKey:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int64",
+            "printedName": "Swift.Int64",
+            "usr": "s:s5Int64V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeMutablePointer",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:Sp"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)NSUbiquitousKeyValueStore_GetInt64ForKey:",
+        "mangledName": "$s15CloudKitWrapper34NSUbiquitousKeyValueStore_GetInt6403forE0s0I0VSpys4Int8VG_tF",
+        "moduleName": "CloudKitWrapper",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "NSUbiquitousKeyValueStore_GetString",
+        "printedName": "NSUbiquitousKeyValueStore_GetString(forKey:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutablePointer",
+                "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:Sp"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeMutablePointer",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:Sp"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)NSUbiquitousKeyValueStore_GetStringForKey:",
+        "mangledName": "$s15CloudKitWrapper35NSUbiquitousKeyValueStore_GetString03forE0Spys4Int8VGSgAF_tF",
+        "moduleName": "CloudKitWrapper",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "NSUbiquitousKeyValueStore_SetArray",
+        "printedName": "NSUbiquitousKeyValueStore_SetArray(_:forKey:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "InteropStructArray",
+            "printedName": "CloudKitWrapper.InteropStructArray",
+            "usr": "c:@SA@InteropStructArray"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeMutablePointer",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:Sp"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)NSUbiquitousKeyValueStore_SetArray:forKey:",
+        "mangledName": "$s15CloudKitWrapper34NSUbiquitousKeyValueStore_SetArray_03forE0ySo013InteropStructI0a_Spys4Int8VGtF",
+        "moduleName": "CloudKitWrapper",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "NSUbiquitousKeyValueStore_SetBool",
+        "printedName": "NSUbiquitousKeyValueStore_SetBool(_:forKey:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeMutablePointer",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:Sp"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)NSUbiquitousKeyValueStore_SetBool:forKey:",
+        "mangledName": "$s15CloudKitWrapper33NSUbiquitousKeyValueStore_SetBool_03forE0ySb_Spys4Int8VGtF",
+        "moduleName": "CloudKitWrapper",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "NSUbiquitousKeyValueStore_SetData",
+        "printedName": "NSUbiquitousKeyValueStore_SetData(_:forKey:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "InteropStructArray",
+            "printedName": "CloudKitWrapper.InteropStructArray",
+            "usr": "c:@SA@InteropStructArray"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeMutablePointer",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:Sp"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)NSUbiquitousKeyValueStore_SetData:forKey:",
+        "mangledName": "$s15CloudKitWrapper33NSUbiquitousKeyValueStore_SetData_03forE0ySo18InteropStructArraya_Spys4Int8VGtF",
+        "moduleName": "CloudKitWrapper",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "NSUbiquitousKeyValueStore_SetDouble",
+        "printedName": "NSUbiquitousKeyValueStore_SetDouble(_:forKey:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Double",
+            "printedName": "Swift.Double",
+            "usr": "s:Sd"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeMutablePointer",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:Sp"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)NSUbiquitousKeyValueStore_SetDouble:forKey:",
+        "mangledName": "$s15CloudKitWrapper35NSUbiquitousKeyValueStore_SetDouble_03forE0ySd_Spys4Int8VGtF",
+        "moduleName": "CloudKitWrapper",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "NSUbiquitousKeyValueStore_SetInt64",
+        "printedName": "NSUbiquitousKeyValueStore_SetInt64(_:forKey:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int64",
+            "printedName": "Swift.Int64",
+            "usr": "s:s5Int64V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeMutablePointer",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:Sp"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)NSUbiquitousKeyValueStore_SetInt64:forKey:",
+        "mangledName": "$s15CloudKitWrapper34NSUbiquitousKeyValueStore_SetInt64_03forE0ys0I0V_Spys4Int8VGtF",
+        "moduleName": "CloudKitWrapper",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "NSUbiquitousKeyValueStore_SetString",
+        "printedName": "NSUbiquitousKeyValueStore_SetString(_:forKey:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutablePointer",
+                "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:Sp"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeMutablePointer",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:Sp"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)NSUbiquitousKeyValueStore_SetString:forKey:",
+        "mangledName": "$s15CloudKitWrapper35NSUbiquitousKeyValueStore_SetString_03forE0ySpys4Int8VGSg_AFtF",
+        "moduleName": "CloudKitWrapper",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "NSUbiquitousKeyValueStore_Synchronize",
+        "printedName": "NSUbiquitousKeyValueStore_Synchronize()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)NSUbiquitousKeyValueStore_Synchronize",
+        "mangledName": "$s15CloudKitWrapper37NSUbiquitousKeyValueStore_SynchronizeSbyF",
+        "moduleName": "CloudKitWrapper",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "NSUbiquitousKeyValueStore_RemoveObject",
+        "printedName": "NSUbiquitousKeyValueStore_RemoveObject(forKey:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeMutablePointer",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:Sp"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)NSUbiquitousKeyValueStore_RemoveObjectForKey:",
+        "mangledName": "$s15CloudKitWrapper38NSUbiquitousKeyValueStore_RemoveObject03forE0ySpys4Int8VG_tF",
+        "moduleName": "CloudKitWrapper",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InteropStructArray",
+        "printedName": "InteropStructArray",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "toData",
+            "printedName": "toData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So18InteropStructArraya15CloudKitWrapperE6toData10Foundation0H0VyF",
+            "mangledName": "$sSo18InteropStructArraya15CloudKitWrapperE6toData10Foundation0H0VyF",
+            "moduleName": "CloudKitWrapper",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toArray",
+            "printedName": "toArray()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So18InteropStructArraya15CloudKitWrapperE02toC0SayxGylF",
+            "mangledName": "$sSo18InteropStructArraya15CloudKitWrapperE02toC0SayxGylF",
+            "moduleName": "CloudKitWrapper",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Element>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@SA@InteropStructArray",
+        "moduleName": "CloudKitWrapper",
+        "isExternal": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InteropStructDictionary",
+        "printedName": "InteropStructDictionary",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "toDictionary",
+            "printedName": "toDictionary()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[τ_0_0 : τ_0_1]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So23InteropStructDictionarya15CloudKitWrapperE02toC0SDyxq_GySHRzr0_lF",
+            "mangledName": "$sSo23InteropStructDictionarya15CloudKitWrapperE02toC0SDyxq_GySHRzr0_lF",
+            "moduleName": "CloudKitWrapper",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+            "sugared_genericSig": "<KElement, VElement where KElement : Swift.Hashable>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@SA@InteropStructDictionary",
+        "moduleName": "CloudKitWrapper",
+        "isExternal": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "String",
+        "printedName": "String",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "toCharPCopy",
+            "printedName": "toCharPCopy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutablePointer",
+                "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:Sp"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS15CloudKitWrapperE11toCharPCopySpys4Int8VGyF",
+            "mangledName": "$sSS15CloudKitWrapperE11toCharPCopySpys4Int8VGyF",
+            "moduleName": "CloudKitWrapper",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:SS",
+        "mangledName": "$sSS",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStream",
+            "printedName": "TextOutputStream",
+            "usr": "s:s16TextOutputStreamP",
+            "mangledName": "$ss16TextOutputStreamP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
+            "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinStringLiteral",
+            "printedName": "_ExpressibleByBuiltinStringLiteral",
+            "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
+            "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringLiteral",
+            "printedName": "ExpressibleByStringLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringLiteralType",
+                "printedName": "StringLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s26ExpressibleByStringLiteralP",
+            "mangledName": "$ss26ExpressibleByStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedGraphemeClusterLiteralType",
+                "printedName": "ExtendedGraphemeClusterLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarLiteralType",
+                "printedName": "UnicodeScalarLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StringProtocol",
+            "printedName": "StringProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UTF8View",
+                "printedName": "UTF8View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF8View",
+                    "printedName": "Swift.String.UTF8View",
+                    "usr": "s:SS8UTF8ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UTF16View",
+                "printedName": "UTF16View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF16View",
+                    "printedName": "Swift.String.UTF16View",
+                    "usr": "s:SS9UTF16ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarView",
+                "printedName": "UnicodeScalarView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnicodeScalarView",
+                    "printedName": "Swift.String.UnicodeScalarView",
+                    "usr": "s:SS17UnicodeScalarViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sy",
+            "mangledName": "$sSy"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringInterpolation",
+            "printedName": "ExpressibleByStringInterpolation",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringInterpolation",
+                "printedName": "StringInterpolation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultStringInterpolation",
+                    "printedName": "Swift.DefaultStringInterpolation",
+                    "usr": "s:s26DefaultStringInterpolationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s32ExpressibleByStringInterpolationP",
+            "mangledName": "$ss32ExpressibleByStringInterpolationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CKRecordValueProtocol",
+            "printedName": "CKRecordValueProtocol",
+            "usr": "s:8CloudKit21CKRecordValueProtocolP",
+            "mangledName": "$s8CloudKit21CKRecordValueProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UnsafeMutablePointer",
+        "printedName": "UnsafeMutablePointer",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "toString",
+            "printedName": "toString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sp15CloudKitWrappers4Int8VRszlE8toStringSSyF",
+            "mangledName": "$sSp15CloudKitWrappers4Int8VRszlE8toStringSSyF",
+            "moduleName": "CloudKitWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 == Swift.Int8>",
+            "sugared_genericSig": "<Pointee where Pointee == Swift.Int8>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toData",
+            "printedName": "toData(count:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sp15CloudKitWrappers5UInt8VRszlE6toData5count10Foundation0F0VSi_tF",
+            "mangledName": "$sSp15CloudKitWrappers5UInt8VRszlE6toData5count10Foundation0F0VSi_tF",
+            "moduleName": "CloudKitWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 == Swift.UInt8>",
+            "sugared_genericSig": "<Pointee where Pointee == Swift.UInt8>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:Sp",
+        "mangledName": "$sSp",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Pointee>",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_Pointer",
+            "printedName": "_Pointer",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Pointee",
+                "printedName": "Pointee",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s8_PointerP",
+            "mangledName": "$ss8_PointerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Stride",
+                "printedName": "Stride",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Data",
+        "printedName": "Data",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "toUCharP",
+            "printedName": "toUCharP()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutablePointer",
+                "printedName": "Swift.UnsafeMutablePointer<Swift.UInt8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sp"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation4DataV15CloudKitWrapperE8toUCharPSpys5UInt8VGyF",
+            "mangledName": "$s10Foundation4DataV15CloudKitWrapperE8toUCharPSpys5UInt8VGyF",
+            "moduleName": "CloudKitWrapper",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Foundation4DataV",
+        "mangledName": "$s10Foundation4DataV",
+        "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Frozen",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RandomAccessCollection",
+            "printedName": "RandomAccessCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sk",
+            "mangledName": "$sSk"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableCollection",
+            "printedName": "MutableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SM",
+            "mangledName": "$sSM"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Foundation.Data.Iterator",
+                    "usr": "s:10Foundation4DataV8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Regions",
+                "printedName": "Regions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<Foundation.Data>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Foundation.Data.Iterator",
+                    "usr": "s:10Foundation4DataV8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CKRecordValueProtocol",
+            "printedName": "CKRecordValueProtocol",
+            "usr": "s:8CloudKit21CKRecordValueProtocolP",
+            "mangledName": "$s8CloudKit21CKRecordValueProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Array",
+        "printedName": "Array",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "toUnsafeMutablePointer",
+            "printedName": "toUnsafeMutablePointer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutablePointer",
+                "printedName": "Swift.UnsafeMutablePointer<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sp"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sa15CloudKitWrapperE22toUnsafeMutablePointerSpyxGyF",
+            "mangledName": "$sSa15CloudKitWrapperE22toUnsafeMutablePointerSpyxGyF",
+            "moduleName": "CloudKitWrapper",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Element>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:Sa",
+        "mangledName": "$sSa",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Element>",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_DestructorSafeContainer",
+            "printedName": "_DestructorSafeContainer",
+            "usr": "s:s24_DestructorSafeContainerP",
+            "mangledName": "$ss24_DestructorSafeContainerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ArrayProtocol",
+            "printedName": "_ArrayProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Buffer",
+                "printedName": "_Buffer",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ArrayBuffer",
+                    "printedName": "Swift._ArrayBuffer<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s12_ArrayBufferV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s14_ArrayProtocolP",
+            "mangledName": "$ss14_ArrayProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RandomAccessCollection",
+            "printedName": "RandomAccessCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sk",
+            "mangledName": "$sSk"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableCollection",
+            "printedName": "MutableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SM",
+            "mangledName": "$sSM"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<[τ_0_0]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[τ_0_0]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<[τ_0_0]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[τ_0_0]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByArrayLiteral",
+            "printedName": "ExpressibleByArrayLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ArrayLiteralElement",
+                "printedName": "ArrayLiteralElement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByArrayLiteralP",
+            "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSArray",
+                    "printedName": "Foundation.NSArray",
+                    "usr": "c:objc(cs)NSArray"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "EncodableWithConfiguration",
+            "printedName": "EncodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "EncodingConfiguration",
+                "printedName": "EncodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.EncodingConfiguration"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26EncodableWithConfigurationP",
+            "mangledName": "$s10Foundation26EncodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DecodableWithConfiguration",
+            "printedName": "DecodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "DecodingConfiguration",
+                "printedName": "DecodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.DecodingConfiguration"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26DecodableWithConfigurationP",
+            "mangledName": "$s10Foundation26DecodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Regions",
+                "printedName": "Regions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.UInt8]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CKRecordValueProtocol",
+            "printedName": "CKRecordValueProtocol",
+            "usr": "s:8CloudKit21CKRecordValueProtocolP",
+            "mangledName": "$s8CloudKit21CKRecordValueProtocolP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/AppleCoreRuntimeShared.swift",
+      "kind": "Dictionary",
+      "offset": 968,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/AppleCoreRuntimeShared.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1102,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/AppleCoreRuntimeShared.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1668,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/AppleCoreRuntimeShared.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1686,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 407,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 439,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 474,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 502,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 407,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 439,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 474,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 502,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 407,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 439,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 474,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 502,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 829,
+      "length": 47,
+      "value": "\"NSUbiquitousKeyValueStore_DidChangeExternally\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 2359,
+      "length": 73,
+      "value": "\"NSUbiquitousKeyValueStore_AddObserverForDidChangeExternallyNotification\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 3281,
+      "length": 76,
+      "value": "\"NSUbiquitousKeyValueStore_RemoveObserverForDidChangeExternallyNotification\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 3781,
+      "length": 56,
+      "value": "\"NSUbiquitousKeyValueStore_GetArray(forKey: \"\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 3833,
+      "length": 1,
+      "value": "\"\")\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 4318,
+      "length": 67,
+      "value": "\"NSUbiquitousKeyValueStore_GetBool(forKey: \"\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 4369,
+      "length": 1,
+      "value": "\"\") -> \""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 4384,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 4597,
+      "length": 55,
+      "value": "\"NSUbiquitousKeyValueStore_GetData(forKey: \"\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 4648,
+      "length": 1,
+      "value": "\"\")\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 5752,
+      "length": 69,
+      "value": "\"NSUbiquitousKeyValueStore_GetDouble(forKey: \"\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 5805,
+      "length": 1,
+      "value": "\"\") -> \""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 5820,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 6094,
+      "length": 68,
+      "value": "\"NSUbiquitousKeyValueStore_GetInt64(forKey: \"\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 6146,
+      "length": 1,
+      "value": "\"\") -> \""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 6161,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 6665,
+      "length": 78,
+      "value": "\"NSUbiquitousKeyValueStore_GetString(forKey: \"\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 6718,
+      "length": 1,
+      "value": "\"\") -> \""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 6736,
+      "length": 5,
+      "value": "\"nil\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 6742,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 6985,
+      "length": 56,
+      "value": "\"NSUbiquitousKeyValueStore_SetArray(forKey: \"\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 7037,
+      "length": 1,
+      "value": "\"\")\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 7377,
+      "length": 65,
+      "value": "\"NSUbiquitousKeyValueStore_SetBool(\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 7420,
+      "length": 1,
+      "value": "\", forKey: \"\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 7438,
+      "length": 1,
+      "value": "\"\")\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 7648,
+      "length": 55,
+      "value": "\"NSUbiquitousKeyValueStore_SetData(forKey: \"\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 7699,
+      "length": 1,
+      "value": "\"\")\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 8312,
+      "length": 67,
+      "value": "\"NSUbiquitousKeyValueStore_SetDouble(\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 8357,
+      "length": 1,
+      "value": "\", forKey: \"\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 8375,
+      "length": 1,
+      "value": "\"\")\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 8644,
+      "length": 66,
+      "value": "\"NSUbiquitousKeyValueStore_SetInt64(\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 8688,
+      "length": 1,
+      "value": "\", forKey: \"\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 8706,
+      "length": 1,
+      "value": "\"\")\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 9190,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 9278,
+      "length": 73,
+      "value": "\"NSUbiquitousKeyValueStore_SetString(\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 9329,
+      "length": 1,
+      "value": "\", forKey: \"\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 9347,
+      "length": 1,
+      "value": "\"\")\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 9486,
+      "length": 39,
+      "value": "\"NSUbiquitousKeyValueStore_Synchronize\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 9775,
+      "length": 59,
+      "value": "\"NSUbiquitousKeyValueStore_RemoveObject(forKey: \"\""
+    },
+    {
+      "filePath": "\/Users\/jonaathan\/Documents\/GitHub\/test\/unityplugins\/plug-ins\/Apple.CloudKit\/Native\/CloudKitWrapper\/UbiquitousKeyValueStore.swift",
+      "kind": "StringLiteral",
+      "offset": 9831,
+      "length": 1,
+      "value": "\"\"\""
+    }
+  ]
+}

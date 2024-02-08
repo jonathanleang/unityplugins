@@ -1,0 +1,86 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CloudKitWrapper
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CloudKit
+@_exported import CloudKitWrapper
+import Foundation
+import OSLog
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public typealias char_p = Swift.UnsafeMutablePointer<Swift.Int8>
+public typealias uchar_p = Swift.UnsafeMutablePointer<Swift.UInt8>
+extension CloudKitWrapper.InteropStructArray {
+  public func toData() -> Foundation.Data
+  public func toArray<Element>() -> [Element]
+}
+extension CloudKitWrapper.InteropStructDictionary {
+  public func toDictionary<KElement, VElement>() -> [KElement : VElement] where KElement : Swift.Hashable
+}
+extension Swift.String {
+  public func toCharPCopy() -> CloudKitWrapper.char_p
+}
+extension Swift.UnsafeMutablePointer where Pointee == Swift.Int8 {
+  public func toString() -> Swift.String
+}
+extension Foundation.Data {
+  public func toUCharP() -> CloudKitWrapper.uchar_p
+}
+extension Swift.UnsafeMutablePointer where Pointee == Swift.UInt8 {
+  public func toData(count: Swift.Int) -> Foundation.Data
+}
+extension Swift.Array {
+  public func toUnsafeMutablePointer() -> Swift.UnsafeMutablePointer<Element>
+}
+public typealias NSUbiquitousKeyValueStoreDidChangeExternallyNotificationCallback = @convention(c) (Swift.Int, CloudKitWrapper.InteropStructArray) -> Swift.Void
+public enum NSUbiquitousKeyValueStoreChangeReason : Swift.Int {
+  case serverChange, initialSyncChange, quotaViolationChange, accountChange
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class NSUbiquitousKeyValueStoreDidChangeExternallyObserver : ObjectiveC.NSObject {
+  public var DidChangeExternally: CloudKitWrapper.NSUbiquitousKeyValueStoreDidChangeExternallyNotificationCallback?
+  @objc public func ubiquitousKeyValueStoreDidChange(_ notification: Foundation.Notification)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_cdecl("NSUbiquitousKeyValueStore_AddObserverForDidChangeExternallyNotification")
+public func NSUbiquitousKeyValueStore_AddObserverForDidChangeExternallyNotification(callback: CloudKitWrapper.NSUbiquitousKeyValueStoreDidChangeExternallyNotificationCallback)
+@_cdecl("NSUbiquitousKeyValueStore_RemoveObserverForDidChangeExternallyNotification")
+public func NSUbiquitousKeyValueStore_RemoveObserverForDidChangeExternallyNotification()
+@_cdecl("NSUbiquitousKeyValueStore_GetArray")
+public func NSUbiquitousKeyValueStore_GetArray(forKey aKey: CloudKitWrapper.char_p) -> CloudKitWrapper.InteropStructArray
+@_cdecl("NSUbiquitousKeyValueStore_GetBool")
+public func NSUbiquitousKeyValueStore_GetBool(forKey aKey: CloudKitWrapper.char_p) -> Swift.Bool
+@_cdecl("NSUbiquitousKeyValueStore_GetData")
+public func NSUbiquitousKeyValueStore_GetData(forKey aKey: CloudKitWrapper.char_p) -> CloudKitWrapper.InteropStructArray
+@_cdecl("NSUbiquitousKeyValueStore_GetDouble")
+public func NSUbiquitousKeyValueStore_GetDouble(forKey aKey: CloudKitWrapper.char_p) -> Swift.Double
+@_cdecl("NSUbiquitousKeyValueStore_GetInt64")
+public func NSUbiquitousKeyValueStore_GetInt64(forKey aKey: CloudKitWrapper.char_p) -> Swift.Int64
+@_cdecl("NSUbiquitousKeyValueStore_GetString")
+public func NSUbiquitousKeyValueStore_GetString(forKey aKey: CloudKitWrapper.char_p) -> CloudKitWrapper.char_p?
+@_cdecl("NSUbiquitousKeyValueStore_SetArray")
+public func NSUbiquitousKeyValueStore_SetArray(_ anArray: CloudKitWrapper.InteropStructArray, forKey aKey: CloudKitWrapper.char_p)
+@_cdecl("NSUbiquitousKeyValueStore_SetBool")
+public func NSUbiquitousKeyValueStore_SetBool(_ value: Swift.Bool, forKey aKey: CloudKitWrapper.char_p)
+@_cdecl("NSUbiquitousKeyValueStore_SetData")
+public func NSUbiquitousKeyValueStore_SetData(_ value: CloudKitWrapper.InteropStructArray, forKey aKey: CloudKitWrapper.char_p)
+@_cdecl("NSUbiquitousKeyValueStore_SetDouble")
+public func NSUbiquitousKeyValueStore_SetDouble(_ value: Swift.Double, forKey aKey: CloudKitWrapper.char_p)
+@_cdecl("NSUbiquitousKeyValueStore_SetInt64")
+public func NSUbiquitousKeyValueStore_SetInt64(_ value: Swift.Int64, forKey aKey: CloudKitWrapper.char_p)
+@_cdecl("NSUbiquitousKeyValueStore_SetString")
+public func NSUbiquitousKeyValueStore_SetString(_ value: CloudKitWrapper.char_p?, forKey aKey: CloudKitWrapper.char_p)
+@_cdecl("NSUbiquitousKeyValueStore_Synchronize")
+public func NSUbiquitousKeyValueStore_Synchronize() -> Swift.Bool
+@_cdecl("NSUbiquitousKeyValueStore_RemoveObject")
+public func NSUbiquitousKeyValueStore_RemoveObject(forKey aKey: CloudKitWrapper.char_p)
+extension CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason : Swift.Equatable {}
+extension CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason : Swift.Hashable {}
+extension CloudKitWrapper.NSUbiquitousKeyValueStoreChangeReason : Swift.RawRepresentable {}
