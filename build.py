@@ -86,7 +86,7 @@ apple_core_library_path_table = {
 }
 
 # Script will search this path for instances of Unity.app to track their versions and executable paths
-default_unity_install_root_path = pathlib.Path("/Applications/Unity/Hub/Editor/2020.3.33f1")
+default_unity_install_root_path = pathlib.Path("/Applications/Unity/Hub/Editor/2021.3.34f1")
 
 # ------------------------
 # Handle command line args
